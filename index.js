@@ -3,7 +3,7 @@ let dataChannel;
 let recieveChannel;
 let file;
 let userId;
-const ws = new WebSocket("ws://localhost:8895");
+const ws = new WebSocket("ws://web-rtc-file-sharing.vercel.app:8895");
 
 const userIdElement = document.getElementById("user-id");
 const container = document.querySelector(".container");
